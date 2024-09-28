@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>athlixes- athelet info</title>
+     <link rel="stylesheet" href="style.css">
+     <style>
+
+     </style>
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="./images/new logo.jpeg"alt="athlixes Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <h1 style="text-align: center;">Welcome to ATHLIXES</h1>
+
+    <section class="search-bar">
+        <input type="text" placeholder="Search medical conditions..." id="search">
+        <button onclick="searchCondition()">Search</button>
+    </section>
+
+    <!-- Athletics Description Section -->
+    <section class="description-section">
+        <div class="description-overlay">
+            <h2>Athletics: Unleashing Potential</h2>
+            <h3>Discover the Thrill of Competition</h3>
+            <p>
+                Welcome to our athletics hub, where passion meets performance. Dive into the world of track and field, explore the latest events, and get inspired by the stories of athletes pushing their limits. Whether you’re a seasoned competitor or a fan cheering from the stands, our platform brings you closer to the action.
+            </p>
+            </div>
+      </section>
+
+<!-- Section 2: BMI Calculator -->
+<section id="bmi-calculator" class="bmi-section">
+    <h2>BMI Calculator</h2>
+    <p>Calculate your Body Mass Index (BMI) to tailor your workout and stress-relief exercises.</p>
+    <div class="bmi-calculator">
+        <div class="input-group">
+            <label for="height">Height</label>
+            <input type="number" id="height" placeholder="Enter height in cm">
+        </div>
+        <div class="input-group">
+            <label for="weight">Weight</label>
+            <input type="number" id="weight" placeholder="Enter weight in kg">
+        </div>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+    </div>
+    <p id="bmi-result"></p>
+</section>
+
+
+
+<section class="content">
+    <h2>Featured Conditions</h2>
+    <div class="featured">
+        <article>
+            <h3><a href="condition.html?condition=meditation">Meditation</a></h3>
+            <p>Learn about the benefits of meditation for mental health and relaxation.</p>
+        </article>
+        <article>
+            <h3><a href="condition.html?condition=physiotherapy">Physiotherapy</a></h3>
+            <p>Explore how physiotherapy helps in recovery and rehabilitation.</p>
+        </article>
+    </div>
+</section>
+
+     <footer>
+        <p>&copy; Made with love &#10084. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
